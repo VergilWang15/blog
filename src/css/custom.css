@@ -1,0 +1,34 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* I asked GPT4 to help me generate these colors based on my choice #4362e9
+ * He did a great job and I am happy with these brand new colors ❤️
+ */
+
+:root {
+  --ifm-color-primary: #4362e9; /* New primary color */
+  --ifm-color-primary-dark: #3a56c2; /* Darker than primary */
+  --ifm-color-primary-darker: #334da0; /* Even more dark */
+  --ifm-color-primary-darkest: #2d448e; /* Darkest variant */
+  --ifm-color-primary-light: #5c75e9; /* Lighter than primary */
+  --ifm-color-primary-lighter: #7589ea; /* Even more light */
+  --ifm-color-primary-lightest: #8f9deb; /* Lightest variant */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4362e9; /* New primary color for light mode */
+  --ifm-color-primary-dark: #384dc1; /* Darker than primary */
+  --ifm-color-primary-darker: #2f3aa3; /* Even darker */
+  --ifm-color-primary-darkest: #252c85; /* Darkest variant */
+  --ifm-color-primary-light: #4f71e9; /* Lighter than primary for dark mode */
+  --ifm-color-primary-lighter: #5a80e9; /* Even lighter */
+  --ifm-color-primary-lightest: #657fec; /* Lightest variant for dark mode */
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
