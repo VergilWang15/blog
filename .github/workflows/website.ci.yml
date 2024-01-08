@@ -6,12 +6,13 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
-
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} 
     runs-on: ubuntu-latest
 
     strategy:
@@ -29,12 +30,13 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      
+
     - name: Build website
-      run: npm run build
+      run: |
+        npm ci
+        npm run build
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build
+        folder: build # The folder the action should deploy.

@@ -22,7 +22,7 @@ $ npm install
 ### Local Development
 
 ```
-$ npm start --port 4000
+$ npm start -- --port 4000
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
