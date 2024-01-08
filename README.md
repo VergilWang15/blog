@@ -2,7 +2,7 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/) (They did a great job, salute🫡), a modern static website generator.
 
-## roadmap
+## Roadmap
 
 - [ ] separate tech blog and daily notes
 - [ ] add a search bar
@@ -11,7 +11,7 @@ This website is built using [Docusaurus](https://docusaurus.io/) (They did a gre
 - [ ] add a rss feed
 - [ ] more...
 
-## tips from Docusaurus
+## Tips From Docusaurus
 
 ### Installation
 
