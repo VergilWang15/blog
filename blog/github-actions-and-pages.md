@@ -5,11 +5,7 @@ authors: vergil
 tags: [github actions, docusaurus]
 ---
 
-<div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--CgjFf16k--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/a12tj8n6facp0kt0xb0n.jpeg" alt="Image 1" style={{ width: '33%' }} />
-  <img src="https://coletiv.com/static/android-github-actions-setup-image-35b6a79fea4a7289acb6796cd4ad05b4.png" alt="Image 2" style={{ width: '34%' }} />
-  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H2DwM_MSTKQhX0txxaCiUw.png" alt="Image 3" style={{ width: '33%' }} />
-</div>
+![page header](https://VergilWang15.github.io/picx-images-hosting/img.7f2j8ohu2fc0.webp)
 
 [//]: # (TODO:Build a free image hosting service with github, then replace the images above)
 
@@ -85,14 +81,14 @@ jobs:
 
 I use the following steps to configure a workflow:
 
-1. Configure the workflow itself
+### 1. Configure the workflow itself
 
     This part is used to configure the workflow itself, including:
     - Set your workflow's name
     - Set the event that triggers the workflow, in my case, it's `push` or `pull_request` to `main` branch
     - Set the permission of the workflow, in my case, it's `contents: write`, which means the workflow can write to the repository
 
-2. Configure the jobs
+### 2. Configure the jobs
 
     This part is used to configure the jobs in the workflow, including:
     - Set the name of the job, in my case, it's `build-and-deploy`
@@ -100,7 +96,7 @@ I use the following steps to configure a workflow:
     - Set the environment of the job, in my case, it's `ubuntu-latest`, which means the job will run on the latest version of Ubuntu
     - Set the strategy of the job, in my case, it's `node-version: [18.x, 20.x]`, which means the job will run on two versions of Node.js. I use this because I want to test if my website can be built on different versions of Node.js
 
-3. Configure the steps
+### 3. Configure the steps
 
     Steps are the most important part of the workflow, which contains the actual actions that will be executed. In my case, I use the following steps:
 
@@ -112,7 +108,7 @@ I use the following steps to configure a workflow:
 
     After these steps, the website is built and ready to be deployed.
 
-4. Configure the deployment
+### 4. Configure the deployment
 
     I used [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action/tree/v4/) to deploy my website. This action will create a new branch called `gh-pages` and push the `build` folder (you can specify the folder in the action) to the branch. 
 
@@ -120,17 +116,17 @@ I use the following steps to configure a workflow:
 
 After you commit it to Github (main branch here), Github Actions will automatically run the workflow. You can check the status here:
 
-![Github Actions](assets/image-1.png)
+![Github Actions](https://VergilWang15.github.io/picx-images-hosting/image-1.28lgegcf0ljw.webp)
 
 If you are using vscode, you can install a [Github Actions extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) to check the status of your workflow. It also provides some convient features like highlighting the actions you are using, which can be clicked to view the Github repo of the action.
 
-![Github Actions extension](assets/image-2.png)
+![Github Actions extension](https://VergilWang15.github.io/picx-images-hosting/image-2.2bsusm0llbok.webp)
 
 ## Configure Github Pages
 
 After Gihub Actions is finished, the workflow will create a new branch called `gh-pages` on your repository. You can check it here:
 
-![gp-branch](assets/image.png)
+![gp-branch](https://VergilWang15.github.io/picx-images-hosting/image.4751esm5w1k0.webp)
 
 Then, you can go to the `Settings` tab of your repository and scroll down to the `Github Pages` section. 
 
