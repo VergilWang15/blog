@@ -46,7 +46,9 @@ const config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
+        docs: false,
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -78,7 +80,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Dev Dive', position: 'left'},
           {
             href: 'https://github.com/VergilWang15/blog',
             label: 'GitHub',
