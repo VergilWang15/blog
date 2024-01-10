@@ -38,52 +38,19 @@ const config = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        /**
-         * Required for any multi-instance plugin
-         */
         id: 'days-log',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
         routeBasePath: 'days-log',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
         path: './days-log',
       },
     ],
     [
       '@docusaurus/plugin-content-blog',
       {
-        /**
-         * Required for any multi-instance plugin
-         */
         id: 'devs-log',
-        /**
-         * URL route for the blog section of your site.
-         * *DO NOT* include a trailing slash.
-         */
         routeBasePath: 'devs-log',
-        /**
-         * Path to data on filesystem relative to site dir.
-         */
         path: './blog',
       },
     ],
-    // [
-    //   '@docusaurus/plugin-client-redirects',
-    //   {
-    //     redirects: [
-    //       // /docs/oldDoc -> /docs/newDoc
-    //       {
-    //         to: '/devs-log',
-    //         from: '/',
-    //       },
-    //     ],
-    //   },
-    // ],
-    //TODO: find a way to make this work
   ],
 
   presets: [
@@ -119,12 +86,6 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
           {to: '/devs-log', label: 'Dev Log', position: 'left'},
           {to: '/days-log', label: 'Days Log', position: 'left'},
           {

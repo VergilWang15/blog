@@ -1,43 +1,17 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog/devs-log">
-            Built with a curious mind
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import { useEffect } from 'react'; // 导入 useEffect
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  // 使用 useEffect 进行页面跳转
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href = '/blog/devs-log';
+    }, 200); // 延迟0.2秒后跳转，以便显示加载界面
+  }, []);
+
   return (
-    <Layout
-      title={`Hello from Vergil`}
-      description="Life is a journey, where you can just go and follow your heart.">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+      <img src="img/loading.webp" alt="Loading" style={{ width: '600px' }} />
+      <p style={{ fontSize: '20px', color: '#333', fontStyle: 'italic', marginTop: '20px' }}>Loading...</p>
+    </div>
   );
 }
