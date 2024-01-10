@@ -2,18 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vergilwang15.github.io/blog/days-log</id>
     <title>Vergil's Blog Blog</title>
-    <updated>2024-01-10T09:16:20.000Z</updated>
+    <updated>2024-01-10T09:31:02.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vergilwang15.github.io/blog/days-log"/>
     <subtitle>Vergil's Blog Blog</subtitle>
     <icon>https://vergilwang15.github.io/blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Hello world!]]></title>
-        <id>https://vergilwang15.github.io/blog/days-log/hello-world-2</id>
-        <link href="https://vergilwang15.github.io/blog/days-log/hello-world-2"/>
-        <updated>2024-01-10T09:16:20.000Z</updated>
-        <summary type="html"><![CDATA[This is my first blog post!]]></summary>
-        <content type="html"><![CDATA[<p>This is my first blog post!</p>]]></content>
+        <id>https://vergilwang15.github.io/blog/days-log/hello-world</id>
+        <link href="https://vergilwang15.github.io/blog/days-log/hello-world"/>
+        <updated>2024-01-10T09:31:02.000Z</updated>
+        <summary type="html"><![CDATA[This is my first days blog post! ☀]]></summary>
+        <content type="html"><![CDATA[<p>This is my first days blog post! ☀</p>
+<p>I just add a new feature to my website, which is the comment system using <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer">Giscus</a>!</p>
+<p>Thanks to <a href="https://dev.to/m19v" target="_blank" rel="noopener noreferrer">m19v</a>'s step-by-step <a href="https://dev.to/m19v/how-to-add-giscus-comments-to-docusaurus-439h" target="_blank" rel="noopener noreferrer">tutorial</a>! It's really helpful!</p>
+<p>Giscus is a Github App that provides a comment system for your website. It's free (thanks to Github) and easy to use. You can check out the <a href="https://giscus.app/" target="_blank" rel="noopener noreferrer">official website</a> for more information.</p>]]></content>
         <author>
             <name>Vergil Wong</name>
             <uri>https://github.com/VergilWang15</uri>
