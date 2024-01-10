@@ -2,6 +2,7 @@
 slug: hello-world
 title: Hello world!
 authors: vergil
+enableComments: true
 tags: [hello world, docusaurus]
 ---
 

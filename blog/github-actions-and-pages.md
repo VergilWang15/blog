@@ -1,6 +1,7 @@
 ---
 slug: github-actions
 title: Using Github Actions & Pages to build and deploy
+enableComments: true
 authors: vergil
 tags: [github actions, docusaurus]
 ---
