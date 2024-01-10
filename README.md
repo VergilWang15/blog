@@ -4,7 +4,7 @@ This website is built using [Docusaurus](https://docusaurus.io/) (They did a gre
 
 ## Roadmap
 
-- [ ] separate tech blog and daily notes
+- [x] separate tech blog and daily notes
 - [ ] add a search bar
 - [ ] add a comment system
 - [ ] add a like system
