@@ -34,6 +34,58 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'days-log',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'days-log',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './days-log',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'devs-log',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'devs-log',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './blog',
+      },
+    ],
+    // [
+    //   '@docusaurus/plugin-client-redirects',
+    //   {
+    //     redirects: [
+    //       // /docs/oldDoc -> /docs/newDoc
+    //       {
+    //         to: '/devs-log',
+    //         from: '/',
+    //       },
+    //     ],
+    //   },
+    // ],
+    //TODO: find a way to make this work
+  ],
+
   presets: [
     [
       'classic',
@@ -47,14 +99,7 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         docs: false,
-        blog: {
-          routeBasePath: '/',
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/VergilWang15/blog/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -80,12 +125,14 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Dev Dive', position: 'left'},
+          {to: '/devs-log', label: 'Dev Log', position: 'left'},
+          {to: '/days-log', label: 'Days Log', position: 'left'},
           {
             href: 'https://github.com/VergilWang15/blog',
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {
