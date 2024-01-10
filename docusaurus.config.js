@@ -51,6 +51,13 @@ const config = {
         path: './blog',
       },
     ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-6RP08GD856',
+        anonymizeIP: true,
+      },
+    ],
   ],
 
   presets: [
