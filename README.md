@@ -5,10 +5,10 @@ This website is built using [Docusaurus](https://docusaurus.io/) (They did a gre
 ## Roadmap
 
 - [x] separate tech blog and daily notes
-- [ ] add a search bar
-- [ ] add a comment system
 - [ ] add a like system
-- [ ] add a rss feed
+- [ ] add a search bar (should be done later when I got more posts)
+- [ ] add a comment system (maybe using utterances)
+- [ ] add a rss feed (more posts needed)
 - [ ] more...
 
 ## Tips From Docusaurus
