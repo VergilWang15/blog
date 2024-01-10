@@ -1,9 +1,10 @@
 ---
 slug: github-actions
 title: Using Github Actions & Pages to build and deploy
-enableComments: true
 authors: vergil
 tags: [github actions, docusaurus]
+date: 2024-01-09T00:06
+enableComments: true
 ---
 
 ![page header](https://VergilWang15.github.io/picx-images-hosting/img.7f2j8ohu2fc0.webp)

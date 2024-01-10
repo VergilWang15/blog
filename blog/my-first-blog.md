@@ -2,8 +2,9 @@
 slug: hello-world
 title: Hello world!
 authors: vergil
-enableComments: true
 tags: [hello world, docusaurus]
+date: 2024-01-08T02:00
+enableComments: true
 ---
 
 This is my first blog post!
