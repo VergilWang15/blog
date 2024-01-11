@@ -1,6 +1,6 @@
 ---
 slug: github-actions
-title: Using Github Actions & Pages to build and deploy
+title: Using Github Actions & Pages to build and deploy a docusuarus website
 authors: vergil
 tags: [github actions, docusaurus]
 date: 2024-01-09T00:06
@@ -12,13 +12,14 @@ enableComments: true
 [//]: # (TODO:Build a free image hosting service with github, then replace the images above)
 
 
-Today, I utilized Github actions to successfully build and deploy my website, which is now smoothly hosted on [my Github Pages](https://vergilwang15.github.io/blog/). I am going to share my experience here.
+Today, I utilized Github actions to successfully build and deploy my docusaurus website, which is now smoothly hosted on [my Github Pages](https://vergilwang15.github.io/blog/). I am going to share my experience here.
 
 ## What are Github Actions and Github Pages?
 
-Github Actions is a CI/CD tool provided by Github. It is free for public repositories and has certain amount of free minutes for private repositories (2,000 minutes per month in 01/08/2024).
+[Github Actions](https://docs.github.com/en/actions) is a CI/CD tool provided by Github. It is free for public repositories and has certain amount of free minutes for private repositories (2,000 minutes per month in 01/08/2024).
 
-Github Pages is a service that allows you to host static websites directly from your Github repository. The service is free and supports custom domains, which can be used in unlimited public repositories.
+
+[Github Pages](https://pages.github.com/)  is a service that allows you to host static websites directly from your Github repository. The service is free and supports custom domains, which can be used in unlimited public repositories.
 <!--truncate-->
 
 ## Why do I use these two services?
@@ -27,6 +28,9 @@ Github Pages is a service that allows you to host static websites directly from 
 - User-Friendly: They are easy to use and well-integrated with Github
 - Accessiblity: Documentation is clear and everywhere
 
+# What is Docusaurus?
+
+[Docusaurus](https://docusaurus.io/) is a modern static website generator. It is created by Facebook and used by many open-source projects, including React, Babel, Jest, etc. It is easy to use and well-documented. It's a good choice for building a documentation website, of course, you can also use it to build a blog website like me.
 
 ## Create A Workflow File
 
