@@ -9,22 +9,24 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Using Github Actions & Pages to build and deploy]]></title>
+            <title><![CDATA[Using Github Actions & Pages to build and deploy a docusuarus website]]></title>
             <link>https://vergilwang15.github.io/blog/devs-log/github-actions</link>
             <guid>https://vergilwang15.github.io/blog/devs-log/github-actions</guid>
             <pubDate>Tue, 09 Jan 2024 00:06:00 GMT</pubDate>
             <description><![CDATA[page header]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" src="https://vergilwang15.github.io/picx-images-hosting/img.7f2j8ohu2fc0.webp" alt="page header" class="img_ev3q"></p>
-<p>Today, I utilized Github actions to successfully build and deploy my website, which is now smoothly hosted on <a href="https://vergilwang15.github.io/blog/" target="_blank" rel="noopener noreferrer">my Github Pages</a>. I am going to share my experience here.</p>
+<p>Today, I utilized Github actions to successfully build and deploy my docusaurus website, which is now smoothly hosted on <a href="https://vergilwang15.github.io/blog/" target="_blank" rel="noopener noreferrer">my Github Pages</a>. I am going to share my experience here.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-github-actions-and-github-pages">What are Github Actions and Github Pages?<a href="https://vergilwang15.github.io/blog/devs-log/github-actions#what-are-github-actions-and-github-pages" class="hash-link" aria-label="Direct link to What are Github Actions and Github Pages?" title="Direct link to What are Github Actions and Github Pages?">​</a></h2>
-<p>Github Actions is a CI/CD tool provided by Github. It is free for public repositories and has certain amount of free minutes for private repositories (2,000 minutes per month in 01/08/2024).</p>
-<p>Github Pages is a service that allows you to host static websites directly from your Github repository. The service is free and supports custom domains, which can be used in unlimited public repositories.</p>
+<p><a href="https://docs.github.com/en/actions" target="_blank" rel="noopener noreferrer">Github Actions</a> is a CI/CD tool provided by Github. It is free for public repositories and has certain amount of free minutes for private repositories (2,000 minutes per month in 01/08/2024).</p>
+<p><a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">Github Pages</a>  is a service that allows you to host static websites directly from your Github repository. The service is free and supports custom domains, which can be used in unlimited public repositories.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-do-i-use-these-two-services">Why do I use these two services?<a href="https://vergilwang15.github.io/blog/devs-log/github-actions#why-do-i-use-these-two-services" class="hash-link" aria-label="Direct link to Why do I use these two services?" title="Direct link to Why do I use these two services?">​</a></h2>
 <ul>
 <li>Cost-Effective: They are free</li>
 <li>User-Friendly: They are easy to use and well-integrated with Github</li>
 <li>Accessiblity: Documentation is clear and everywhere</li>
 </ul>
+<h1>What is Docusaurus?</h1>
+<p><a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> is a modern static website generator. It is created by Facebook and used by many open-source projects, including React, Babel, Jest, etc. It is easy to use and well-documented. It's a good choice for building a documentation website, of course, you can also use it to build a blog website like me.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="create-a-workflow-file">Create A Workflow File<a href="https://vergilwang15.github.io/blog/devs-log/github-actions#create-a-workflow-file" class="hash-link" aria-label="Direct link to Create A Workflow File" title="Direct link to Create A Workflow File">​</a></h2>
 <p>Create a <code>.yml</code> file (In my cases, it's <code>website_ci.yml</code>) under<code>.github/workflows/</code> folder. When you commit this file, Github Actions will automatically run the workflow.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-the-workflow">Configure the Workflow<a href="https://vergilwang15.github.io/blog/devs-log/github-actions#configure-the-workflow" class="hash-link" aria-label="Direct link to Configure the Workflow" title="Direct link to Configure the Workflow">​</a></h2>

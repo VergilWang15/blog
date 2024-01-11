@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[975],{4012:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Using Github Actions & Pages to build and deploy","permalink":"/blog/devs-log/github-actions","unlisted":false},{"title":"Hello world!","permalink":"/blog/devs-log/hello-world","unlisted":false}]}')}}]);

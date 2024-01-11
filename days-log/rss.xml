@@ -4,7 +4,7 @@
         <title>Vergil's Blog Blog</title>
         <link>https://vergilwang15.github.io/blog/days-log</link>
         <description>Vergil's Blog Blog</description>
-        <lastBuildDate>Wed, 10 Jan 2024 09:31:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jan 2024 14:58:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Hello world!]]></title>
             <link>https://vergilwang15.github.io/blog/days-log/hello-world</link>
             <guid>https://vergilwang15.github.io/blog/days-log/hello-world</guid>
-            <pubDate>Wed, 10 Jan 2024 09:31:02 GMT</pubDate>
+            <pubDate>Thu, 11 Jan 2024 14:58:51 GMT</pubDate>
             <description><![CDATA[This is my first days blog post! ☀]]></description>
             <content:encoded><![CDATA[<p>This is my first days blog post! ☀</p>
 <p>I just add a new feature to my website, which is the comment system using <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer">Giscus</a>!</p>
