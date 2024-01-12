@@ -1,16 +1,13 @@
 ---
-slug: github-actions
+slug: auto-deploy-website
 title: Using Github Actions & Pages to build and deploy a docusuarus website
 authors: vergil
-tags: [github actions, docusaurus]
+tags: [github actions, github pages, docusaurus]
 date: 2024-01-09T00:06
 enableComments: true
 ---
 
 ![page header](https://VergilWang15.github.io/picx-images-hosting/img.7f2j8ohu2fc0.webp)
-
-[//]: # (TODO:Build a free image hosting service with github, then replace the images above)
-
 
 Today, I utilized Github actions to successfully build and deploy my docusaurus website, which is now smoothly hosted on [my Github Pages](https://vergilwang15.github.io/blog/). I am going to share my experience here.
 
