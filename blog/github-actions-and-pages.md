@@ -1,6 +1,6 @@
 ---
 slug: auto-deploy-website
-title: Using Github Actions & Pages to build and deploy a docusuarus website
+title: Using Github Actions & Pages to build and deploy a docusaurus website
 authors: vergil
 tags: [github actions, github pages, docusaurus]
 date: 2024-01-09T00:06
