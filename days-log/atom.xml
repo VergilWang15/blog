@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vergilwang15.github.io/blog/days-log</id>
     <title>Vergil's Blog Blog</title>
-    <updated>2024-01-12T01:06:01.000Z</updated>
+    <updated>2024-01-17T11:32:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vergilwang15.github.io/blog/days-log"/>
     <subtitle>Vergil's Blog Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Hello world!]]></title>
         <id>https://vergilwang15.github.io/blog/days-log/hello-world</id>
         <link href="https://vergilwang15.github.io/blog/days-log/hello-world"/>
-        <updated>2024-01-12T01:06:01.000Z</updated>
+        <updated>2024-01-17T11:32:00.000Z</updated>
         <summary type="html"><![CDATA[This is my first days blog post! ☀]]></summary>
         <content type="html"><![CDATA[<p>This is my first days blog post! ☀</p>
 <p>I just add a new feature to my website, which is the comment system using <a href="https://github.com/apps/giscus" target="_blank" rel="noopener noreferrer">Giscus</a>!</p>

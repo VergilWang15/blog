@@ -8,7 +8,7 @@
     <subtitle>Vergil's Blog Blog</subtitle>
     <icon>https://vergilwang15.github.io/blog/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Using Github Actions & Pages to build and deploy a docusuarus website]]></title>
+        <title type="html"><![CDATA[Using Github Actions & Pages to build and deploy a docusaurus website]]></title>
         <id>https://vergilwang15.github.io/blog/devs-log/auto-deploy-website</id>
         <link href="https://vergilwang15.github.io/blog/devs-log/auto-deploy-website"/>
         <updated>2024-01-09T00:06:00.000Z</updated>

@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Using Github Actions & Pages to build and deploy a docusuarus website]]></title>
+            <title><![CDATA[Using Github Actions & Pages to build and deploy a docusaurus website]]></title>
             <link>https://vergilwang15.github.io/blog/devs-log/auto-deploy-website</link>
             <guid>https://vergilwang15.github.io/blog/devs-log/auto-deploy-website</guid>
             <pubDate>Tue, 09 Jan 2024 00:06:00 GMT</pubDate>
